@@ -25,7 +25,7 @@ bot.on("message", (msg) => {
       }
     })
     .catch((e) => {
-      bot.sendMessage(chatId, "Ошибка, возможно вы неправильно функцию");
+      bot.sendMessage(chatId, "Ошибка, возможно вы неправильно ввели функцию");
       console.log(e);
     });
 });
